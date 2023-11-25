@@ -1,3 +1,4 @@
+//DICHIARAZIONI
 let lista = [];
 let insertButton = document.getElementById("insert");
 let stampButton = document.getElementById("stamp");
@@ -5,6 +6,8 @@ let deleteButton = document.getElementById("delete");
 let elemento = "";
 let padre = document.getElementById("bloccoLista");
 
+
+//INSERIMENTO DELLE VOCI
 insertButton.addEventListener("click",
 
     ()=>{
@@ -14,6 +17,7 @@ insertButton.addEventListener("click",
     }
 )
 
+//STAMPA DELLA SPESA
 stampButton.addEventListener("click",
 
     ()=>{
@@ -35,6 +39,7 @@ stampButton.addEventListener("click",
 
 )
 
+//CANCELLAMENTO LISTA
 deleteButton.addEventListener("click",
 
     ()=>{
